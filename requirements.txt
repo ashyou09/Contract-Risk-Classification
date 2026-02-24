@@ -4,10 +4,10 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
-streamlit
+streamlit>=1.32.0
 nltk
 spacy
 tqdm
 plotly
 PyPDF2
-altair
+altair>=5.0.0,<7.0.0
