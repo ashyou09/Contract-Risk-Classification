@@ -1,8 +1,6 @@
 # Intelligent Contract Risk Analysis
 
-[![Python](https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png)
-[![Streamlit](https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/streamlit-icon.png)
-[![Machine Learning](https://www.pngkey.com/png/full/314-3143637_your-guide-to-machine-learning-machine-learning.png)
+<img src="https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png" height="40" alt="Python"/> &nbsp; <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/streamlit-icon.png" height="40" alt="Streamlit"/> &nbsp; <img src="https://www.pngkey.com/png/full/314-3143637_your-guide-to-machine-learning-machine-learning.png" height="40" alt="Scikit-Learn"/>
 
 **Phase: Milestone 1 - ML-Based Contract Risk Classification**
 
