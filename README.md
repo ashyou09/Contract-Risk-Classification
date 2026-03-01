@@ -1,10 +1,12 @@
 # Intelligent Contract Risk Analysis
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B.svg)](https://streamlit.io/)
-[![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
+[![Python](https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png)
+[![Streamlit](https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/streamlit-icon.png)
+[![Machine Learning](https://www.pngkey.com/png/full/314-3143637_your-guide-to-machine-learning-machine-learning.png)
 
 **Phase: Milestone 1 - ML-Based Contract Risk Classification**
+
+📄 **[View Full Technical Project Report (Overleaf/LaTeX)](https://www.overleaf.com/read/kyynvqpgcptg#ab2768)**
 
 An AI-driven legal document analysis system that evaluates contractual risk. This project applies classical machine learning and Natural Language Processing (NLP) techniques to analyze contract text, segment clauses, and identify potential risk patterns **without the use of Large Language Models (LLMs) or Generative AI**.
 
@@ -120,9 +122,10 @@ _Note: A live deployed version link will be generated via HuggingFace Spaces/Str
 
 _(Please update these fields with your exact team members and responsibilities before submission)_
 
-- **Member 1 (Ashutosh Singh - 2401010109)**: Developed the custom data preprocessing pipeline, CUAD JSON parsing, and risk mapping logic, Scikit-learn Pipeline architecture,  Trained and evaluated ML,  Streamlit UI.
-- **Member 2 (Ranvendra Pratap Singh - 2401010373)**: Implemented the TF-IDF feature engineering and setup Scikit-learn Pipeline architecture,  Trained and evaluated ML, Streamlit UI.
+- **Member 1 (Ashutosh Singh - 2401010109)**: Developed the custom data preprocessing pipeline, CUAD JSON parsing, and risk mapping logic, Scikit-learn Pipeline architecture, Trained and evaluated ML, Streamlit UI.
+- **Member 2 (Ranvendra Pratap Singh - 2401010373)**: Implemented the TF-IDF feature engineering and setup Scikit-learn Pipeline architecture, Trained and evaluated ML, Streamlit UI.
 - **Member 3 (Shreya Suman - 2401010)**: Scikit-learn Pipeline architecture, Trained and evaluated ML models (Logistic Regression, Decision Trees), performed Cross-validation,Streamlit UI.
+
 ---
 
 **Disclaimer:** This tool is an academic project designed for educational purposes to demonstrate ML-based analysis. It does NOT constitute professional legal advice.
