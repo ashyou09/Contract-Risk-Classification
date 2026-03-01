@@ -122,7 +122,7 @@ _(Please update these fields with your exact team members and responsibilities b
 
 - **Member 1 (Ashutosh Singh - 2401010109)**: Developed the custom data preprocessing pipeline, CUAD JSON parsing, and risk mapping logic, Scikit-learn Pipeline architecture, Trained and evaluated ML, Streamlit UI.
 - **Member 2 (Ranvendra Pratap Singh - 2401010373)**: Implemented the TF-IDF feature engineering and setup Scikit-learn Pipeline architecture, Trained and evaluated ML, Streamlit UI.
-- **Member 3 (Shreya Suman - 2401010)**: Scikit-learn Pipeline architecture, Trained and evaluated ML models (Logistic Regression, Decision Trees), performed Cross-validation,Streamlit UI.
+- **Member 3 (Shreya Suman - 2401020068)**: Scikit-learn Pipeline architecture, Trained and evaluated ML models (Logistic Regression, Decision Trees), performed Cross-validation,Streamlit UI.
 
 ---
 
