@@ -120,9 +120,9 @@ _Note: A live deployed version link will be generated via HuggingFace Spaces/Str
 
 _(Please update these fields with your exact team members and responsibilities before submission)_
 
-- **Member 1 (Ashutosh Singh - 2401010109)**: Developed the custom data preprocessing pipeline, CUAD JSON parsing, and risk mapping logic, Streamlit UI.
-- **Member 2 (Ranvendra Pratap Singh - 2401010373)**: Implemented the TF-IDF feature engineering and setup Scikit-learn Pipeline architecture,Streamlit UI.
-- **Member 3 (Shreya Suman - 2401010)**: Trained and evaluated ML models (Logistic Regression, Decision Trees), performed Cross-validation,Streamlit UI.
+- **Member 1 (Ashutosh Singh - 2401010109)**: Developed the custom data preprocessing pipeline, CUAD JSON parsing, and risk mapping logic, Scikit-learn Pipeline architecture,  Trained and evaluated ML,  Streamlit UI.
+- **Member 2 (Ranvendra Pratap Singh - 2401010373)**: Implemented the TF-IDF feature engineering and setup Scikit-learn Pipeline architecture,  Trained and evaluated ML, Streamlit UI.
+- **Member 3 (Shreya Suman - 2401010)**: Scikit-learn Pipeline architecture, Trained and evaluated ML models (Logistic Regression, Decision Trees), performed Cross-validation,Streamlit UI.
 ---
 
 **Disclaimer:** This tool is an academic project designed for educational purposes to demonstrate ML-based analysis. It does NOT constitute professional legal advice.
