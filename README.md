@@ -124,6 +124,7 @@ _(Please update these fields with your exact team members and responsibilities b
 - **Member 2 (Ranvendra Pratap Singh - 2401010373)**: Implemented the TF-IDF feature engineering and setup Scikit-learn Pipeline architecture, Trained and evaluated ML, Streamlit UI.
 - **Member 3 (Shreya Suman - 2401020068)**: Scikit-learn Pipeline architecture, Trained and evaluated ML models (Logistic Regression, Decision Trees), performed Cross-validation,Streamlit UI.
 
+- **Member 3 (Avishkar Meher - 2401010116)**: Contributed to quality assurance checks and supporting end-to-end integration testing. Participated in structuring and workflow refinement to ensure project readiness.
 ---
 
 **Disclaimer:** This tool is an academic project designed for educational purposes to demonstrate ML-based analysis. It does NOT constitute professional legal advice.
