@@ -281,9 +281,9 @@ def main():
                     names="Risk Level",
                     color="Risk Level",
                     color_discrete_map={
-                        "High": "#d32f2f",
-                        "Medium": "#f57c00",
-                        "Low": "#388e3c"
+                       "High": "#085566",
+                        "Medium": "#440866",
+                        "Low": "#085566"
                     }
                 )
                 st.plotly_chart(fig_pie, use_container_width=True)
@@ -296,9 +296,9 @@ def main():
                     color="Risk Level",
                     nbins=20,
                     color_discrete_map={
-                        "High": "#d32f2f",
-                        "Medium": "#f57c00",
-                        "Low": "#388e3c"
+                       "High": "#085566",
+                        "Medium": "#440866",
+                        "Low": "#085566"
                     }
                 )
                 st.plotly_chart(fig_hist, use_container_width=True)
@@ -323,9 +323,9 @@ def main():
                     y="Risk_Score",
                     color="Risk Level",
                     color_discrete_map={
-                        "High": "#d32f2f",
-                        "Medium": "#f57c00",
-                        "Low": "#388e3c"
+                        "High": "#085566",
+                        "Medium": "#440866",
+                        "Low": "#085566"
                     },
                     labels={
                         "index": "Clause Position",
