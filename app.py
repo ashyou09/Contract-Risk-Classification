@@ -546,25 +546,25 @@ def _render_agentic_panel(
                 from contract_agent.utils.text import get_summary
                 summary_text = get_summary(cur["clause_text"], 150)
                 
-                st.markdown("##### 📝 What It Says")
+                st.markdown("##### What It Says")
                 st.info(an.get('plain_english_summary', '—'))
                 
                 if risk in ("High", "Medium"):
                     cl1, cl2 = st.columns(2)
                     with cl1:
-                        st.markdown("##### ⚠️ Why It's Risky")
+                        st.markdown("##### Why It's Risky")
                         st.warning(an.get('what_makes_it_risky', '—'))
                     with cl2:
-                        st.markdown(f"##### 🎯 {domain} Practice")
+                        st.markdown(f"##### {domain} Practice")
                         st.success(an.get('industry_standard_practice', '—'))
                         
-                    st.markdown("##### 🤝 Negotiation & Mitigation")
+                    st.markdown("##### Negotiation & Mitigation")
                     st.write(an.get('negotiation_tips', '—'))
                     
-                    st.markdown("##### ✨ Safer Rewrite")
+                    st.markdown("##### Safer Rewrite")
                     st.code(an.get('safer_rewrite', '—'), language=None)
                 else:
-                    st.markdown("##### ✅ Assessment")
+                    st.markdown("##### Assessment")
                     st.success("This clause is standard and lower risk. No immediate modifications required.")
 
                 with st.expander("Show Original Clause Text"):
@@ -619,10 +619,10 @@ def main():
         st.markdown("### ⚙️ Quick Settings")
 
         # AI mode toggle
-        st.markdown("#### Processing Mode ✨")
+        st.markdown("#### Processing Mode")
         mode_choice = st.radio(
             "How should we analyze your document?",
-            ["🚀 Cloud AI (Fast & Powerful)", "🖥️ Local PC (Private & Slower)"],
+            ["Online", "Offline"],
             index=0, key="mode_radio",
             help="Cloud AI uses our fast online servers. Local PC uses your own computer for complete privacy.",
         )
@@ -632,7 +632,7 @@ def main():
 
         # File update & Clear
         if st.session_state.file_data is not None:
-            st.markdown("#### 📄 Document Actions")
+            st.markdown("#### Document Actions")
             nf = st.file_uploader("Replace current document", type=["txt", "pdf"], key="sidebar_uploader")
             if nf:
                 st.session_state.file_data    = nf.getvalue()
@@ -653,7 +653,7 @@ def main():
                 st.rerun()
             st.markdown("---")
 
-        with st.expander("🛠️ Advanced Controls"):
+        with st.expander("Advanced Controls"):
             st.caption("For power users and technical debugging.")
             
             st.markdown("**System Health Checks**")
@@ -693,7 +693,7 @@ def main():
                             build_vector_db(reset=True)
                             st.rerun()
                         except Exception as _e:
-                            st.error(f"❌ Rebuild failed: {_e}")
+                            st.error(f"Rebuild failed: {_e}")
             else:
                 st.info("Initializing Knowledge Base for the first time...")
                 from rag_setup import build_vector_db
@@ -703,7 +703,7 @@ def main():
                         st.rerun()
                     except Exception as _e:
                         st.error(
-                            f"❌ ChromaDB setup failed: {_e}\n\n"
+                            f"ChromaDB setup failed: {_e}\n\n"
                             "The app will use TF-IDF retrieval as a fallback."
                         )
 
